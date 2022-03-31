@@ -1,0 +1,82 @@
+/* RESET E IMPOSTAZIONI GENERALI */
+
+* {
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#stampa3 {
+  width: 100%;
+  background-color: #F5F5F1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 70px;
+}
+
+.scritte {
+  text-align: center;
+  width: 45%;
+}
+
+.scritte h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.scritte p {
+  line-height: 2em;
+}
+
+#schede-id {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 30px;
+  
+}
+
+.scheda {
+  width: calc((100% - 80px)/ 3);
+  background-color: white;
+  margin: 20px 10px 20px 10px;
+}
+
+.immagine-scheda {
+  width: 100%;
+}
+
+.immagine-scheda img{
+  width: 100%;
+}
+
+.dati-scheda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  width: 100%;
+}
+
+.nome {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #68625B;
+  font-style: oblique;
+}
+
+.ruolo {
+  color: #68625B ;
+  font-weight: lighter;
+}
